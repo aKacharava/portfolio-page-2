@@ -20,7 +20,7 @@ function Header() {
               <a href="#contact">contact</a>
             </li>
           </ul>
-          <Button />
+          <Button name="Resume" />
         </div>
       </nav>
     </header>
