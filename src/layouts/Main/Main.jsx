@@ -1,7 +1,10 @@
+import './Main.css'
+import Hero from '../../components/Hero/Hero'
+
 function Main(){
   return (
     <main>
-      <div>Section 1</div>
+      <Hero />
       <div>Section 2</div>
       <div>Section 3</div>
     </main>
