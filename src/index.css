@@ -4,14 +4,33 @@
   line-height: 24px;
   font-weight: 400;
 
-  color: #ffdca3;
-  background-color: #2a0944;
+  color: var(--light-beige);
+  background-color: var(--dark-purple);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --purple: #803f98;
+  --yellow: #f6b527;
+  --orange: #ff8316;
+  --dark-purple: #2a0944;
+  --beige: #fec260;
+  --light-beige: #ffdca3;
+
+  --font-xxs: 12px;
+  --font-xs: 13px;
+  --font-s: 14px;
+  --font-m: 16px;
+  --font-l: 18px;
+  --font-xl: 20px;
+  --font-xxl: 22px;
+  --font-heading: 32px;
+
+  --border-radius: 4px;
+  --nav-height: 100px;
 }
 
 a {
