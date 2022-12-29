@@ -20,7 +20,7 @@ function Header() {
               <a href="#contact">contact</a>
             </li>
           </ul>
-          <Button name="Resume" />
+          <Button className="header-button" name="Resume" />
         </div>
       </nav>
     </header>

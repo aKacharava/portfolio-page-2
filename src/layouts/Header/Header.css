@@ -43,3 +43,7 @@ nav {
   counter-increment: item 1;
   font-size: var(--font-xs);
 }
+
+.header-button {
+  margin-left: 15px;
+}
