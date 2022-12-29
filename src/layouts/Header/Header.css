@@ -8,6 +8,7 @@ header {
   z-index: 11;
   width: 100%;
   height: var(--nav-height);
+  padding: 0 50px;
 }
 
 nav {
@@ -18,7 +19,6 @@ nav {
   align-items: center;
   position: relative;
   width: 100%;
-  padding: 0px 50px;
   counter-reset: item 0;
   z-index: 12;
 }
