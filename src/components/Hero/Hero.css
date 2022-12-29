@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+  height: 100vh;
+  background: darkolivegreen;
+  padding: 0 50px;
+}
+
+.hero-title > h1 {
+  margin: 0px 0px 30px 4px;
+  color: var(--orange);
+  /* font-family: var(--font-mono); */
+  font-size: clamp(var(--font-s),5vw,var(--font-m));
+  font-weight: 400;
+}
+
+.hero-big-title {
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 80px);
+}
+
+.hero-title > h2,
+.hero-title > h3 {
+  margin-top: 5px;
+  line-height: 0.9;
+}
+
+.hero-title > h2 {
+  margin-top: 5px;
+  color: var(--beige);
+  line-height: 0.9;
+}
+
+.hero-text p {
+  margin: 20px 0px 0px;
+  max-width: 540px;
+}
