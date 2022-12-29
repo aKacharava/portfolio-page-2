@@ -7,6 +7,5 @@ button{
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
-  margin-left: 15px;
   font-size: var(--font-xs);
 }
