@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  height: var(--nav-height);
+}
+
+nav {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 0px 50px;
+  counter-reset: item 0;
+  z-index: 12;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-nav > ul > li {
+  margin: 0 5px;
+  position: relative;
+  counter-increment: item 1;
+  font-size: var(--font-xs);
+}
