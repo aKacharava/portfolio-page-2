@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0px 0px 10px;
   font-weight: 600;
   line-height: 1.1;
-  color: var(--ligh-beige);
+  color: var(--light-beige);
 }
 
 a {
@@ -72,4 +72,10 @@ a {
 }
 a:hover {
   color: var(--orange);
+}
+
+section {
+  margin: 0px auto;
+  padding: 100px 0px;
+  max-width: 1000px;
 }
