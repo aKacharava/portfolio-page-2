@@ -1,11 +1,12 @@
 import './Main.css'
 import Hero from '../../components/Hero/Hero'
+import About from '../../components/About/About'
 
 function Main(){
   return (
     <main>
       <Hero />
-      <div>Section 2</div>
+      <About />
       <div>Section 3</div>
     </main>
   );
