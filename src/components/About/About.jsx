@@ -34,8 +34,8 @@ function About() {
               combinations) taught me a lot about HTML & CSS!"
             />
             <Text
-              content="Fast-forward to today, and I’ve had the privilege of working at an
-              VR/AR Agency, a start-up and a corporation with 25+ years of
+              content="Fast-forward to today, and I’ve had the privilege of working at a
+              VR/AR agency, a start-up and a web agency with 25+ years of
               experience. My main focus these days is building accessible,
               inclusive products and digital experiences at Muze for a variety
               of clients."
