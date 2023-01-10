@@ -41,7 +41,12 @@ nav {
   margin: 0 5px;
   position: relative;
   counter-increment: item 1;
-  font-size: var(--font-xs);
+  font-size: var(--font-m);
+  font-family: var(--font-mono);
+}
+
+.menu-nav > ul > li > a {
+  padding: 10px;
 }
 
 .header-button {
