@@ -31,6 +31,7 @@
 .hero-title > h3 {
   margin-top: 5px;
   line-height: 1;
+  color: var(--light-purple);
 }
 
 .hero-title > h2 {
