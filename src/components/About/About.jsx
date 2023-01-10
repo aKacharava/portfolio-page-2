@@ -5,9 +5,10 @@ import Text from '../Text/Text'
 import List from '../List/List'
 
 const listItems = [
-  { id: 1, content: "JavaScript" },
-  { id: 2, content: "HTML" },
-  { id: 3, content: "CSS" },
+  { id: 1, content: "JavaScript (ES6+)" },
+  { id: 2, content: "React" },
+  { id: 3, content: "Vue.js" },
+  { id: 3, content: "Node.js" },
 ];
 
 function About() {
@@ -41,7 +42,7 @@ function About() {
               of clients."
             />
             <Text content="Here are a few technologies I’ve been working with recently:" />
-            <List listItems={listItems} />
+            <List className="about-text-list" listItems={listItems} />
           </div>
         </div>
       </div>
