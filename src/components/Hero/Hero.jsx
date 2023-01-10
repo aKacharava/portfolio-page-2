@@ -10,10 +10,10 @@ function Hero() {
           <h1>Hi,</h1>
         </div>
         <div className="hero-title">
-          <h2>I'm Alex,</h2>
+          <h2 className="hero-big-title">I'm Alex,</h2>
         </div>
         <div className="hero-title">
-          <h3>Web developer</h3>
+          <h3 className="hero-big-title">Web developer.</h3>
         </div>
         <div className="hero-text">
           <p>
@@ -23,7 +23,7 @@ function Hero() {
             in corporis velit ad officia.
           </p>
         </div>
-        <Button name="Scroll Down" />
+        <Button className="hero-scroll-down" name="Scroll Down!" />
       </div>
       <div className="hero-img-container">
         <img src={logo} />
