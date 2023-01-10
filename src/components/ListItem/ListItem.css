@@ -1,0 +1,16 @@
+.list-item::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: var(--orange);
+  font-size: var(--font-s);
+  line-height: 12px;
+}
+
+.list-item {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: var(--font-mono);
+  font-size: var(--font-xs);
+}

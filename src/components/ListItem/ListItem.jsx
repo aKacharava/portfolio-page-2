@@ -2,7 +2,7 @@ import './ListItem.css'
 
 function ListItem(props) {
   return(
-    <li>
+    <li className='list-item'>
       {props.content}
     </li>
   )
