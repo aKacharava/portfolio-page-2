@@ -13,7 +13,7 @@ const listItems = [
 function About() {
   return (
     <section className="about">
-      <h2>About Me</h2>
+      <h2 className='heading'>About Me</h2>
       <div className="about-inner">
         <div className="about-img-container">
           <div className="about-img-wrapper">
