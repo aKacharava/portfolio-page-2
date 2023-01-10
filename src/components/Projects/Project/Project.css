@@ -1,0 +1,13 @@
+.project-item:not(:last-of-type) {
+  margin-bottom: 100px;
+}
+
+.project-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-item:nth-of-type(even){
+  flex-direction: row-reverse;
+}
