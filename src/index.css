@@ -22,11 +22,13 @@
   --font-xl: 20px;
   --font-xxl: 22px;
   --font-heading: 32px;
+  --font-default: "Ubuntu", sans-serif;
   --font-mono: "Ubuntu Mono", monospace;
 
   --border-radius: 4px;
   --nav-height: 100px;
   --nav-scroll-height: 70px;
+  --tab-height: 42px;
 }
 
 /* Resets CSS */
