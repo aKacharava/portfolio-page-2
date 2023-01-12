@@ -22,7 +22,7 @@ const listItems = [
 function Experience() {
   return (
     <section className="experience">
-      <h2>My Experiences</h2>
+      <h2 className="heading">My Experiences</h2>
       <div className="inner">
         <div className="jobs-button-list">
           <button id="tab-0" className="job-button">
@@ -38,16 +38,16 @@ function Experience() {
         <div className="jobs-panel-list">
           <div id="panel-0" className="job-panel">
             <h3>
-              <span>Web developer</span>
+              <span>Web developer </span>
               <span className="company">
-                @
+                 @ 
                 <a className="company-link" href="https://www.muze.nl/">
-                  Muze
+                   Muze 
                 </a>
               </span>
             </h3>
             <p className="range">September 2021 - Present</p>
-            <List listItems={listItems} />
+            <List className="job-panel-content-list" listItems={listItems} />
           </div>
         </div>
       </div>
