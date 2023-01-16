@@ -22,6 +22,22 @@ function Projects() {
           tech={projectTechMuze}
           imgSrc={projectImg}
         />
+        <Project
+          overline="second"
+          url="https://brittanychiang.com/"
+          title="Test"
+          description="FOO BAAR BAZ"
+          tech={projectTechMuze}
+          imgSrc={projectImg}
+        />
+        <Project
+          overline="third"
+          url="https://brittanychiang.com/"
+          title="Test"
+          description="FOO BAAR BAZ"
+          tech={projectTechMuze}
+          imgSrc={projectImg}
+        />
       </ul>
     </section>
   );
