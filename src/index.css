@@ -104,6 +104,7 @@ a {
   font-weight: 500;
   color: inherit;
   text-decoration: inherit;
+  display: inline-block;
 }
 a:hover {
   color: var(--orange);
