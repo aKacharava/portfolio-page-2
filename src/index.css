@@ -89,18 +89,13 @@ p > a {
   color: var(--orange);
 }
 
-p > a:hover, p > a:focus, p > a:active {
-  color: var(--orange);
-  outline: 0px;
-}
-
 p > a::after {
   content: "";
   display: block;
-  width: 0px;
-  height: 1.5px;
+  width: 0;
+  height: 0.8px;
   position: relative;
-  bottom: 0.2em;
+  bottom: 0.1em;
   background-color: var(--orange);
   transition: var(--transition);
   opacity: 0.5;
@@ -137,7 +132,7 @@ p {
 }
 
 a {
-  font-weight: 500;
+  font-weight: 400;
   color: inherit;
   text-decoration: inherit;
   display: inline-block;
@@ -146,8 +141,10 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus,
+a:active {
   color: var(--orange);
+  outline: 0px;
 }
 
 section {
