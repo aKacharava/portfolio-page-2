@@ -86,3 +86,14 @@
     padding: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .about-inner {
+    display: block;
+  }
+
+  .about-img-container {
+    margin: 50px auto;
+    width: 70%;
+  }
+}

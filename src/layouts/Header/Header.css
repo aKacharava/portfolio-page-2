@@ -32,6 +32,10 @@ nav {
   align-items: center;
 }
 
+.menu-nav-small {
+  display: none;
+}
+
 .menu-nav > ul {
   display: flex;
   justify-content: space-between;
@@ -55,4 +59,86 @@ nav {
 
 .header-button {
   margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0px 25px;
+  }
+
+  .menu-nav {
+    display: none;
+  }
+
+  .menu-nav-small {
+    display: block;
+  }
+
+  .menu-hamburger {
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    margin-right: -15px;
+    padding: 15px;
+    border: 0px none;
+    background-color: transparent;
+    color: inherit;
+    text-transform: none;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: opacity, filter;
+  }
+
+  .menu-hamburger .hamburger-box {
+    display: inline-block;
+    position: relative;
+    width: var(--hamburger-width);
+    height: 24px;
+  }
+
+  .hamburger-box .hamburger-box-inner {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: var(--hamburger-width);
+    height: 2px;
+    border-radius: var(--border-radius);
+    background-color: var(--orange);
+    transition: var(--transition);
+    transform: rotate(0deg);
+  }
+
+  .hamburger-box .hamburger-box-inner::before,
+  .hamburger-box .hamburger-box-inner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    width: var(--hamburger-width);
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--orange);
+    transition-timing-function: ease;
+    transition-duration: 0.15s;
+    transition-property: transform;
+  }
+
+  .hamburger-box .hamburger-box-inner::before {
+    width: 120%;
+    top: -10px;
+    opacity: 1;
+    transition: var(--hamburger-before);
+  }
+
+  .hamburger-box .hamburger-box-inner::after {
+    width: 80%;
+    bottom: -10px;
+    transform: rotate(0deg);
+    transition: var(--hamburger-after);
+  }
 }
