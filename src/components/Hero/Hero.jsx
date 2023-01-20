@@ -17,10 +17,9 @@ function Hero() {
         </div>
         <div className="hero-text">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            tempore est cupiditate dolorem culpa vitae soluta accusamus ab
-            animi, reprehenderit, aspernatur odit voluptate delectus architecto
-            in corporis velit ad officia.
+            I’m a software engineer specializing in building exceptional web
+            apps. Currently, I’m focused on building accessible, human-friendly
+            products at <a href="https://www.muze.nl/">Muze</a>.
           </p>
         </div>
         <Button className="hero-scroll-down" name="Scroll Down!" />

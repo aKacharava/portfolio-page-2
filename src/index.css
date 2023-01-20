@@ -80,6 +80,36 @@ ul {
   font-weight: normal;
 }
 
+p > a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+  color: var(--orange);
+}
+
+p > a:hover, p > a:focus, p > a:active {
+  color: var(--orange);
+  outline: 0px;
+}
+
+p > a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 1.5px;
+  position: relative;
+  bottom: 0.2em;
+  background-color: var(--orange);
+  transition: var(--transition);
+  opacity: 0.5;
+}
+
+p > a:hover::after, p > a:focus::after, p > a:active::after {
+    width: 100%;
+}
+
 ol,
 ul {
   list-style: none;
@@ -108,8 +138,11 @@ a {
   text-decoration: inherit;
   display: inline-block;
   transition: var(--transition);
+  cursor: pointer;
 }
-a:hover {
+
+a:hover,
+a:focus {
   color: var(--orange);
 }
 

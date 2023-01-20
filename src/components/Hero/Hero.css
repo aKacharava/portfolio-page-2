@@ -7,6 +7,10 @@
   height: 100vh;
   padding: 0 50px;
 }
+.hero a {
+  font-weight: 400;
+  color: var(--orange);
+}
 
 .hero-title {
   color: var(--light-purple);
