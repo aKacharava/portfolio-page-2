@@ -132,6 +132,10 @@ h6 {
   color: var(--lightest-purple);
 }
 
+p {
+  margin: 0px 0px 15px;
+}
+
 a {
   font-weight: 500;
   color: inherit;
