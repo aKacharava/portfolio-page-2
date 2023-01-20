@@ -7,12 +7,14 @@ const listItems = [
   { id: 1, content: "JavaScript (ES6+)" },
   { id: 2, content: "React" },
   { id: 3, content: "Vue.js" },
-  { id: 3, content: "Node.js" },
+  { id: 4, content: "Node.js" },
+  { id: 5, content: "SimplyEdit" },
+  { id: 6, content: "PHP" }
 ];
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id='about'>
       <h2 className="heading">About Me</h2>
       <div className="about-inner">
         <div className="about-img-container">
@@ -34,7 +36,7 @@ function About() {
               combinations) taught me a lot about HTML & CSS!
             </p>
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at a
+              Fast-forward to today, and I’ve had the privilege of working at a {" "}
               <a href="https://recreate.nl/">VR/AR agency</a>,{" "}
               <a href="https://mediafris.nl/">a start-up</a> and a{" "}
               <a href="https://www.muze.nl/">web agency</a> with 25+ years of
