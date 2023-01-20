@@ -11,6 +11,7 @@
   --orange: #ffaa60;
   --transparent-orange: rgba(255, 170, 96, 0.1);
   --dark-purple: #14041f;
+  --purple: #4d446c;
   --slate-purple: #392d42;
   --light-purple: #a38fb1;
   --lightest-purple: #edd3ff;
@@ -42,6 +43,7 @@
 html {
   box-sizing: border-box;
   font-size: var(--font-m);
+  scrollbar-color: var(--purple) var(--dark-purple);
 }
 
 body {
