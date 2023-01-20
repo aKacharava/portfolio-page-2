@@ -1,6 +1,5 @@
 .about {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 50px;
 }
 
 .about-inner {
@@ -46,6 +45,12 @@
   top: 20px;
   left: 20px;
   z-index: -1;
+  transition: var(--transition);
+}
+
+.about-img-container:hover .about-img-wrapper::after {
+  top: 10px;
+  left: 10px;
 }
 
 .about-img-wrapper > div {
@@ -74,4 +79,10 @@
   margin: 20px 0px 0px;
   overflow: hidden;
   list-style: none;
+}
+
+@media (max-width: 1080px) {
+  .about {
+    padding: 0;
+  }
 }

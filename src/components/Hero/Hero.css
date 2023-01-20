@@ -63,3 +63,13 @@
   cursor: pointer;
   margin-top: 50px;
 }
+
+@media (max-width: 1080px) {
+  .hero {
+    padding: 0;
+  }
+
+  .hero-img-container {
+    display: none;
+  }
+}
