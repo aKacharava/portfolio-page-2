@@ -107,7 +107,7 @@ nav {
     right: 0px;
     width: var(--hamburger-width);
     height: 2px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-rad);
     background-color: var(--orange);
     transition: var(--transition);
     transform: rotate(0deg);

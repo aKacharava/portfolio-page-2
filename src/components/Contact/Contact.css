@@ -20,7 +20,7 @@
   color: var(--orange);
   background-color: transparent;
   border: 1px solid var(--orange);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-rad);
   padding: 1.25rem 1.75rem;
   font-size: var(--font-m);
   font-family: var(--font-mono);

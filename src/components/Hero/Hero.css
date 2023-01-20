@@ -22,7 +22,7 @@
   margin: 0px 0px 30px 4px;
   color: var(--orange);
   font-family: var(--font-mono);
-  font-size: clamp(var(--font-xl),5vw,var(--font-xxl));
+  font-size: clamp(var(--font-xl), 5vw, var(--font-xxl));
   font-weight: 400;
 }
 
@@ -58,7 +58,7 @@
   color: var(--orange);
   background-color: transparent;
   border: 1px solid var(--orange);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-rad);
   padding: 1.25rem 1.75rem;
   font-size: var(--font-s);
   font-family: var(--font-mono);
