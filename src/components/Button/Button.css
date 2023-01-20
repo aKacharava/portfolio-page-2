@@ -9,4 +9,9 @@ button{
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover {
+  background-color: var(--transparent-orange);
 }

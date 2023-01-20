@@ -28,4 +28,9 @@
   text-decoration: none;
   cursor: pointer;
   margin-top: 50px;
+  transition: var(--transition);
+}
+
+.email-link:hover {
+  background-color: var(--transparent-orange);
 }

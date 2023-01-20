@@ -55,10 +55,11 @@
   mix-blend-mode: screen;
 }
 
-.project-item .project-img .img {
+.project-item .project-img a .img {
   border-radius: var(--border-radius);
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1) brightness(90%);
+  transition: var(--transition);
 }
 
 .project-item .project-img a:hover .img{
