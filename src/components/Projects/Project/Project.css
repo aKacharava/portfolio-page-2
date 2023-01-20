@@ -175,6 +175,11 @@
   -moz-box-align: center;
   align-items: center;
   padding: 10px;
+  fill: white;
+}
+
+.project-item .project-links a:hover {
+  fill: var(--orange);
 }
 
 .project-item .project-links a svg {
