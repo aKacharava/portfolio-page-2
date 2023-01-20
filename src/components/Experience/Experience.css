@@ -95,3 +95,35 @@
 .job-panel-content-list > li {
   font-family: var(--font-default);
 }
+
+@media (max-width: 768px) {
+  .experience .inner {
+    display: block;
+  }
+
+  .jobs-button-list {
+    display: flex;
+    overflow-x: auto;
+    width: calc(100% + 100px);
+    padding-left: 50px;
+    margin-left: -50px;
+    margin-bottom: 30px;
+  }
+
+  .jobs-button-list .job-button {
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    min-width: 120px;
+    padding: 0px 15px;
+    border-left: 0px none;
+    border-bottom: 2px solid var(--lightest-purple);
+    text-align: center;
+  }
+
+  .jobs-panel-list {
+    margin-left: 0;
+  }
+}
