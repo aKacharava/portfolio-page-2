@@ -1,3 +1,8 @@
+.projects ul a {
+  position: relative;
+  z-index: 1;
+}
+
 .project-item:not(:last-of-type) {
   margin-bottom: 100px;
 }
@@ -46,7 +51,6 @@
   height: 100%;
   inset: 0px;
   z-index: 3;
-  transition: var(--transition);
   background-color: var(--purple);
   mix-blend-mode: screen;
 }
@@ -74,7 +78,7 @@
   display: block;
 }
 
-.project-item .project-img .img-wrapper div {
+.project-item .project-img .img-wrapper div img{
   max-width: 100%;
   display: block;
   position: static;
