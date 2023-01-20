@@ -61,6 +61,11 @@
   filter: grayscale(100%) contrast(1) brightness(90%);
 }
 
+.project-item .project-img a:hover .img{
+  mix-blend-mode: inherit;
+  filter: grayscale(0%) contrast(1) brightness(90%);
+}
+
 .project-item .project-img .img-wrapper {
   width: 100%;
   max-width: 100%;
