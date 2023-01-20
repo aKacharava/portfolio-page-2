@@ -1,9 +1,17 @@
 import './Footer.css'
 
 function Footer() {
-  return(
-    <footer>Built by AK Dev</footer>
-  )
+  return (
+    <footer>
+      <a
+        href="https://github.com/aKacharava/portfolio-page-2"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Built by AK Dev
+      </a>
+    </footer>
+  );
 }
 
 export default Footer

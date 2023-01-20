@@ -9,5 +9,13 @@ footer {
   min-height: 70px;
   padding: 15px;
   text-align: center;
+  
+}
+
+footer a {
+  color: var(--orange);
   font-style: var(--font-mono);
+  font-size: var(--font-s);
+  font-weight: 400;
+  cursor: pointer;
 }
