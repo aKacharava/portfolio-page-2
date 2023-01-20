@@ -51,7 +51,7 @@
   height: 100%;
   inset: 0px;
   z-index: 3;
-  background-color: var(--purple);
+  background-color: var(--dark-purple);
   mix-blend-mode: screen;
 }
 
