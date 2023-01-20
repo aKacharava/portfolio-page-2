@@ -19,6 +19,7 @@ function Projects() {
           title="first"
           description="FOO BAAR BAZ"
           tech={projectTechMuze}
+          githubUrl="https://example.com/"
           imgSrc={projectImg}
         />
         <Project
@@ -26,6 +27,7 @@ function Projects() {
           title="second"
           description="FOO BAAR BAZ"
           tech={projectTechMuze}
+          githubUrl="https://example.com/"
           imgSrc={projectImg}
         />
         <Project
@@ -33,6 +35,7 @@ function Projects() {
           title="third"
           description="FOO BAAR BAZ"
           tech={projectTechMuze}
+          githubUrl="https://example.com/"
           imgSrc={projectImg}
         />
       </ul>
