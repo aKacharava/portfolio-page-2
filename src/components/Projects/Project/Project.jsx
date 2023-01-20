@@ -1,12 +1,11 @@
 import './Project.css'
 import List from '../../List/List'
 
-
 function Project(props) {
   return (
     <li className="project-item">
       <div className="project-content">
-        <p>{props.overline}</p>
+        <p className='project-overline'>Featured Project</p>
         <h3 className="project-title">
           <a href={props.url}>{props.title}</a>
         </h3>

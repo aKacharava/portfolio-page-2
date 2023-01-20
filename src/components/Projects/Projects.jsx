@@ -15,25 +15,22 @@ function Projects() {
       <h2 className="heading">Some stuff I've built</h2>
       <ul>
         <Project
-          overline="first"
-          url="https://brittanychiang.com/"
-          title="Test"
+          url="https://example.com/"
+          title="first"
           description="FOO BAAR BAZ"
           tech={projectTechMuze}
           imgSrc={projectImg}
         />
         <Project
-          overline="second"
-          url="https://brittanychiang.com/"
-          title="Test"
+          url="https://example.com/"
+          title="second"
           description="FOO BAAR BAZ"
           tech={projectTechMuze}
           imgSrc={projectImg}
         />
         <Project
-          overline="third"
-          url="https://brittanychiang.com/"
-          title="Test"
+          url="https://example.com/"
+          title="third"
           description="FOO BAAR BAZ"
           tech={projectTechMuze}
           imgSrc={projectImg}
