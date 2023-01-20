@@ -14,7 +14,7 @@ const listItems = [
 
 function About() {
   return (
-    <section className="about" id='about'>
+    <section className="about" id="about">
       <h2 className="heading">About Me</h2>
       <div className="about-inner">
         <div className="about-img-container">
@@ -36,13 +36,24 @@ function About() {
               combinations) taught me a lot about HTML & CSS!
             </p>
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at a {" "}
-              <a href="https://recreate.nl/">VR/AR agency</a>,{" "}
-              <a href="https://mediafris.nl/">a start-up</a> and a{" "}
-              <a href="https://www.muze.nl/">web agency</a> with 25+ years of
-              experience. My main focus these days is building accessible,
-              inclusive products and digital experiences at{" "}
-              <a href="https://www.muze.nl/">Muze</a> for a variety of clients.
+              Fast-forward to today, and I’ve had the privilege of working at a{" "}
+              <a href="https://recreate.nl/" target="_blank">
+                VR/AR agency
+              </a>
+              ,{" "}
+              <a href="https://mediafris.nl/" target="_blank">
+                a start-up
+              </a>{" "}
+              and a{" "}
+              <a href="https://www.muze.nl/" target="_blank">
+                web agency
+              </a>{" "}
+              with 25+ years of experience. My main focus these days is building
+              accessible, inclusive products and digital experiences at{" "}
+              <a href="https://www.muze.nl/" target="_blank">
+                Muze
+              </a>{" "}
+              for a variety of clients.
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
             <List className="about-text-list" listItems={listItems} />

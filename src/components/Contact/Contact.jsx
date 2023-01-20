@@ -3,7 +3,7 @@ import logo from "../../assets/img/logo.png";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" id='contact'>
       <h2 className="overline">Want to know more?</h2>
       <h2 className="title">Get In Touch</h2>
       <p>

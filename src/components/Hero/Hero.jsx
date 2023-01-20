@@ -19,7 +19,11 @@ function Hero() {
           <p>
             I’m a software engineer specializing in building exceptional web
             apps. Currently, I’m focused on building accessible, human-friendly
-            products at <a href="https://www.muze.nl/">Muze</a>.
+            products at{" "}
+            <a href="https://www.muze.nl/" target="_blank">
+              Muze
+            </a>
+            .
           </p>
         </div>
         <Button className="hero-scroll-down" name="Scroll Down!" />

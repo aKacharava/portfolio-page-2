@@ -21,7 +21,7 @@ const listItems = [
 
 function Experience() {
   return (
-    <section className="experience">
+    <section className="experience" id='experience'>
       <h2 className="heading">My Experiences</h2>
       <div className="inner">
         <div className="jobs-button-list">
@@ -40,9 +40,13 @@ function Experience() {
             <h3>
               <span>Web developer </span>
               <span className="company">
-                 @ 
-                <a className="company-link" href="https://www.muze.nl/">
-                   Muze 
+                @
+                <a
+                  className="company-link"
+                  href="https://www.muze.nl/"
+                  target="_blank"
+                >
+                  Muze
                 </a>
               </span>
             </h3>

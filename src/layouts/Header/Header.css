@@ -13,6 +13,7 @@ header {
   background-color: rgba(20, 4, 31, 0.85);
   box-shadow: 0 10px 30px -10px rgba(23, 7, 34, 0.7);
   backdrop-filter: blur(8px);
+  text-transform: capitalize;
 }
 
 nav {

@@ -11,7 +11,7 @@ const projectTechMuze = [
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id='projects'>
       <h2 className="heading">Some stuff I've built</h2>
       <ul>
         <Project

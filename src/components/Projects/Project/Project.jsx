@@ -7,7 +7,9 @@ function Project(props) {
       <div className="project-content">
         <p className="project-overline">Featured Project</p>
         <h3 className="project-title">
-          <a href={props.url}>{props.title}</a>
+          <a href={props.url} target="_blank">
+            {props.title}
+          </a>
         </h3>
         <div className="project-description">
           <p>{props.description}</p>
