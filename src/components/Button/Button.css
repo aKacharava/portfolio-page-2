@@ -1,4 +1,4 @@
-button {
+.button {
   color: var(--orange);
   background-color: transparent;
   border: 1px solid var(--orange);
@@ -12,6 +12,6 @@ button {
   transition: var(--transition);
 }
 
-button:hover {
+.button:hover {
   background-color: var(--transparent-orange);
 }

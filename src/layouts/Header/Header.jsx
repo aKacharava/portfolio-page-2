@@ -23,7 +23,7 @@ function Header() {
               <a href="#contact">contact</a>
             </li>
           </ul>
-          <Button className="header-button" name="Resume" />
+          <Button className="header-button" name="Resume" link="/resume.pdf" />
         </div>
         <div className="menu-nav-small">
           <div>
