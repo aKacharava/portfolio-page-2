@@ -92,6 +92,7 @@ nav {
     transition-timing-function: linear;
     transition-duration: 0.15s;
     transition-property: opacity, filter;
+    cursor: pointer;
   }
 
   .menu-hamburger .hamburger-box {
