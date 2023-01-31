@@ -1,9 +1,11 @@
 import './Button.css'
 
 function Button(props){
-  return(
-    <a className={props.className + " button"} href={props.link}>{props.name}</a>
-  )
+  return (
+    <button className={props.className + " button"} onClick={props.onShowNav}>
+      {props.name}
+    </button>
+  );
 }
 
 export default Button
