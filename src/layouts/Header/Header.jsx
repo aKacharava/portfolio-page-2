@@ -1,34 +1,61 @@
-import './Header.css'
-import Button from '../../components/Button/Button'
-import HeaderSmall from './HeaderSmall';
+import "./Header.css";
+import Button from "../../components/Button/Button";
+import HeaderSmall from "./HeaderSmall";
+import { Fragment, useState } from "react";
 
 function Header() {
+  const [isNavDisplayed, setIsNavDisplayed] = useState(false);
+
+  function toggleNavHandler() {
+    setIsNavDisplayed(!isNavDisplayed);
+    var menuNavStyle = document.querySelector(".menu-nav-side");
+    var blur = document.querySelector(".blur");
+
+    if (isNavDisplayed === false) {
+      document.body.classList.add("body-blur");
+      blur.style.transform = "translateX(0vw)";
+      blur.style.backdropFilter = "blur(10px)";
+      menuNavStyle.style.transform = "translateX(0vw)";
+    } else {
+      document.body.classList.remove("body-blur");
+      blur.style.transform = "translateX(100vw)";
+      blur.style.backdropFilter = "blur(0)";
+      menuNavStyle.style.transform = "translateX(100vw)";
+    }
+  }
+
   return (
-    <header>
-      <nav>
-        <div className="logo">
-          <a href="/">LOGO</a>
-        </div>
-        <div className="menu-nav">
-          <ul>
-            <li>
-              <a href="#about">about</a>
-            </li>
-            <li>
-              <a href="#experience">experience</a>
-            </li>
-            <li>
-              <a href="#projects">projects</a>
-            </li>
-            <li>
-              <a href="#contact">contact</a>
-            </li>
-          </ul>
-          <Button className="header-button" name="Resume"/>
-        </div>
-        <HeaderSmall />
-      </nav>
-    </header>
+    <Fragment>
+      <header>
+        <nav>
+          <div className="logo">
+            <a href="/">LOGO</a>
+          </div>
+          <div className="menu-nav">
+            <ul>
+              <li>
+                <a href="#about">about</a>
+              </li>
+              <li>
+                <a href="#experience">experience</a>
+              </li>
+              <li>
+                <a href="#projects">projects</a>
+              </li>
+              <li>
+                <a href="#contact">contact</a>
+              </li>
+            </ul>
+            <Button className="header-button" name="Resume" />
+          </div>
+          <HeaderSmall
+            isNavDisplayed={isNavDisplayed}
+            toggleNavHandler={toggleNavHandler}
+          />
+        </nav>
+        <div className="blur"></div>
+      </header>
+    </Fragment>
   );
 }
 

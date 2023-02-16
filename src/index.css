@@ -57,6 +57,10 @@ body {
   font-size: var(--font-xl);
 }
 
+body.body-blur {
+  overflow: hidden;
+}
+
 *,
 *:before,
 *:after {
