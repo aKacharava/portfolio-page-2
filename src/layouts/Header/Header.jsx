@@ -6,12 +6,11 @@ import { Fragment, useState } from "react";
 function Header() {
   const [isNavDisplayed, setIsNavDisplayed] = useState(false);
 
-  function toggleNavHandler() {
-    setIsNavDisplayed(!isNavDisplayed);
+  function toggleNavDisplay(handler) {
     var menuNavStyle = document.querySelector(".menu-nav-side");
     var blur = document.querySelector(".blur");
 
-    if (isNavDisplayed === false) {
+    if (handler === false) {
       document.body.classList.add("body-blur");
       blur.style.transform = "translateX(0vw)";
       blur.style.backdropFilter = "blur(10px)";
@@ -22,6 +21,11 @@ function Header() {
       blur.style.backdropFilter = "blur(0)";
       menuNavStyle.style.transform = "translateX(100vw)";
     }
+  }
+
+  function toggleNavHandler() {
+    setIsNavDisplayed(!isNavDisplayed);
+    toggleNavDisplay(isNavDisplayed);
   }
 
   return (
