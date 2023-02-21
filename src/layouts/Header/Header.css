@@ -72,7 +72,12 @@ nav {
   backdrop-filter: blur(0);
   display: block;
   transition: var(--transition);
-  transform: translateX(100vw);
+  pointer-events: none;
+}
+
+.blur.active {
+  pointer-events: auto;
+  backdrop-filter: blur(10px);
 }
 
 @media (max-width: 768px) {
@@ -197,6 +202,10 @@ nav {
     transform: translateX(100vw);
     visibility: visible;
     transition: var(--transition);
+  }
+
+  .menu-nav-side.active {
+    transform: translateX(0vw);
   }
 
   .menu-nav-side nav {
