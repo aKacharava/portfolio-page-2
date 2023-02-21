@@ -29,37 +29,35 @@ function Header() {
   }
 
   return (
-    <Fragment>
-      <header>
-        <nav>
-          <div className="logo">
-            <a href="/">LOGO</a>
-          </div>
-          <div className="menu-nav">
-            <ul>
-              <li>
-                <a href="#about">about</a>
-              </li>
-              <li>
-                <a href="#experience">experience</a>
-              </li>
-              <li>
-                <a href="#projects">projects</a>
-              </li>
-              <li>
-                <a href="#contact">contact</a>
-              </li>
-            </ul>
-            <Button className="header-button" name="Resume" />
-          </div>
-          <HeaderSmall
-            isNavDisplayed={isNavDisplayed}
-            toggleNavHandler={toggleNavHandler}
-          />
-        </nav>
-        <div className="blur"></div>
-      </header>
-    </Fragment>
+    <header>
+      <nav>
+        <div className="logo">
+          <a href="/">LOGO</a>
+        </div>
+        <div className="menu-nav">
+          <ul>
+            <li>
+              <a href="#about">about</a>
+            </li>
+            <li>
+              <a href="#experience">experience</a>
+            </li>
+            <li>
+              <a href="#projects">projects</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          <Button className="header-button" name="Resume" />
+        </div>
+        <HeaderSmall
+          isNavDisplayed={isNavDisplayed}
+          toggleNavHandler={toggleNavHandler}
+        />
+      </nav>
+      <div className="blur"></div>
+    </header>
   );
 }
 
