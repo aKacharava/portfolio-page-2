@@ -1,7 +1,7 @@
 import "./Header.css";
 import Button from "../../components/Button/Button";
 import HeaderSmall from "./HeaderSmall";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 
 function Header() {
   const [isNavDisplayed, setIsNavDisplayed] = useState(false);
