@@ -115,6 +115,7 @@ nav {
     height: 24px;
   }
 
+  /* Hamburger icon (inactive) */
   .hamburger-box .hamburger-box-inner {
     position: absolute;
     top: 50%;
@@ -154,6 +155,25 @@ nav {
     width: 80%;
     bottom: -10px;
     transform: rotate(0deg);
+    transition: var(--hamburger-after);
+  }
+
+  /* Hamburger icon (active)*/
+  .hamburger-box .hamburger-box-inner.active {
+    transform: rotate(45deg);
+  }
+
+  .hamburger-box .hamburger-box-inner.active::before {
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    transition: var(--hamburger-before);
+  }
+
+  .hamburger-box .hamburger-box-inner.active::after {
+    width: 100%;
+    bottom: 0;
+    transform: rotate(-90deg);
     transition: var(--hamburger-after);
   }
 

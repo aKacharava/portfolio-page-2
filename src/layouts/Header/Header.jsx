@@ -9,7 +9,9 @@ function Header() {
   function toggleNavDisplay(handler) {
     var menuNavStyle = document.querySelector(".menu-nav-side");
     var blur = document.querySelector(".blur");
-
+    var hamburgerIcon = document.querySelector(".hamburger-box-inner");
+    hamburgerIcon.classList.toggle("active");
+    
     if (handler === false) {
       document.body.classList.add("body-blur");
       blur.style.transform = "translateX(0vw)";
