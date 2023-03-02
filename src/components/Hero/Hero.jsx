@@ -1,6 +1,5 @@
 import './Hero.css'
 import logo from '../../assets/img/logo.png'
-import Button from '../Button/Button'
 
 function Hero() {
   return (
@@ -26,7 +25,7 @@ function Hero() {
             .
           </p>
         </div>
-        <Button className="hero-scroll-down" name="Scroll Down!" />
+        <a className="hero-scroll-down">Scroll Down!</a>
       </div>
       <div className="hero-img-container">
         <img src={logo} />

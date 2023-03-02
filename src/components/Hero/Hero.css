@@ -68,6 +68,10 @@
   margin-top: 50px;
 }
 
+.hero-scroll-down:hover {
+  background-color: var(--transparent-orange);
+}
+
 @media (max-width: 1080px) {
   .hero {
     padding: 0;
