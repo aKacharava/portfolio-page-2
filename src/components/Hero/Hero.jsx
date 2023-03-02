@@ -25,7 +25,7 @@ function Hero() {
             .
           </p>
         </div>
-        <a className="hero-scroll-down">Scroll Down!</a>
+        <a className="hero-scroll-down" href='#about'>Scroll Down!</a>
       </div>
       <div className="hero-img-container">
         <img src={logo} />

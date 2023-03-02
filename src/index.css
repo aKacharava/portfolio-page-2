@@ -44,6 +44,7 @@ html {
   box-sizing: border-box;
   font-size: var(--font-m);
   scrollbar-color: var(--purple) var(--dark-purple);
+  scroll-behavior: smooth;
 }
 
 body {
