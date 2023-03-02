@@ -59,7 +59,22 @@ nav {
 }
 
 .header-button {
+  color: var(--orange);
+  background-color: transparent;
+  border: 1px solid var(--orange);
+  border-radius: var(--border-rad);
+  padding: 0.75rem 1rem;
+  font-size: var(--font-m);
+  font-family: var(--font-mono);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
   margin-left: 15px;
+}
+
+.header-button:hover {
+  background-color: var(--transparent-orange);
 }
 
 .blur {

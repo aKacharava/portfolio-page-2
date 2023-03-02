@@ -43,7 +43,7 @@ function Header() {
               <a href="#contact">contact</a>
             </li>
           </ul>
-          <Button className="header-button" name="Resume" />
+          <a className="header-button" href="./CV-Alexander-Kacharava.pdf" download>Resume</a>
         </div>
         <HeaderSmall
           isNavDisplayed={isNavDisplayed}
