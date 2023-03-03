@@ -3,12 +3,14 @@
   height: auto;
   padding: 10px 5px;
   opacity: 0;
+  z-index: 0;
   transition: var(--transition-panel);
   position: absolute;
 }
 
 .job-panel.active {
   opacity: 1;
+  z-index: 10;
 }
 
 .job-panel h3 {
