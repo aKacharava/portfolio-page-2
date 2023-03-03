@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Experiences.css";
 import Experience from "./Experience/Experience";
 
@@ -20,25 +21,10 @@ const muzeItems = [
 ];
 
 function Experiences() {
-  function togglePanelDisplay(element) {
-    const allTabs = document.querySelector(".jobs-button-list").childNodes;
-    const allPanels = document.querySelector(".jobs-panel-list").childNodes;
-    const currentElement = element.target.offsetParent;
-    const tabControlId = currentElement.attributes[5].value;
-    const tabPan = document.querySelector("#" + tabControlId);
-    
-    // Deselect all tabs
-    allTabs.forEach((tab)=>{
-      tab.classList.remove("active");
-    });
+  const [toggleTab, setToggleTab] = useState(3);
 
-    // Hide all panels
-    allPanels.forEach((panel) => {
-      panel.classList.remove("active");
-    });
-
-    currentElement.classList.add("active");
-    tabPan.classList.add("active");
+  function togglePanelDisplay(index) {
+    setToggleTab(index);
   }
 
   return (
@@ -48,29 +34,37 @@ function Experiences() {
         <div className="jobs-button-list" role="tablist" aria-label="Job tabs">
           <button
             id="tab-3"
-            className="job-button active"
-            onClick={togglePanelDisplay}
+            className={toggleTab === 3 ? "job-button active" : "job-button"}
+            role="tab"
+            aria-controls="panel-3"
+            onClick={() => togglePanelDisplay(3)}
           >
             <span>Coddin</span>
           </button>
           <button
             id="tab-2"
-            className="job-button"
-            onClick={togglePanelDisplay}
+            className={toggleTab === 2 ? "job-button active" : "job-button"}
+            role="tab"
+            aria-controls="panel-2"
+            onClick={() => togglePanelDisplay(2)}
           >
             <span>Muze</span>
           </button>
           <button
             id="tab-1"
-            className="job-button"
-            onClick={togglePanelDisplay}
+            className={toggleTab === 1 ? "job-button active" : "job-button"}
+            role="tab"
+            aria-controls="panel-1"
+            onClick={() => togglePanelDisplay(1)}
           >
             <span>MediaFris</span>
           </button>
           <button
             id="tab-0"
-            className="job-button"
-            onClick={togglePanelDisplay}
+            className={toggleTab === 0 ? "job-button active" : "job-button"}
+            role="tab"
+            aria-controls="panel-0"
+            onClick={() => togglePanelDisplay(0)}
           >
             <span>Recreate</span>
           </button>
@@ -78,7 +72,7 @@ function Experiences() {
         <div className="jobs-panel-list">
           <Experience
             pannelId="panel-3"
-            className="job-panel active"
+            className={toggleTab === 3 ? "job-panel active" : "job-panel"}
             title="Junior/Medior Web Developer"
             companyLink="https://coddin.nl/"
             company="Coddin"
@@ -87,7 +81,7 @@ function Experiences() {
           />
           <Experience
             pannelId="panel-2"
-            className="job-panel"
+            className={toggleTab === 2 ? "job-panel active" : "job-panel"}
             title="Junior Web Developer"
             companyLink="https://www.muze.nl/"
             company="Muze"
@@ -96,7 +90,7 @@ function Experiences() {
           />
           <Experience
             pannelId="panel-1"
-            className="job-panel"
+            className={toggleTab === 1 ? "job-panel active" : "job-panel"}
             title="Intern Front-end Developer"
             companyLink="https://mediafris.nl/"
             company="MediaFris"
@@ -105,7 +99,7 @@ function Experiences() {
           />
           <Experience
             pannelId="panel-0"
-            className="job-panel"
+            className={toggleTab === 0 ? "job-panel active" : "job-panel"}
             title="Intern Front-end Developer"
             companyLink="https://recreate.nl/"
             company="Recreate"
