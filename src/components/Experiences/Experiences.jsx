@@ -1,4 +1,4 @@
-import './Experience.css'
+import "./Experiences.css";
 import List from "../List/List";
 
 const listItems = [
@@ -19,13 +19,13 @@ const listItems = [
   },
 ];
 
-function Experience() {
+function Experiences() {
   return (
-    <section className="experience" id='experience'>
+    <section className="experience" id="experience">
       <h2 className="heading">My Experiences</h2>
       <div className="inner">
         <div className="jobs-button-list">
-          <button id="tab-0" className="job-button">
+          <button id="tab-0" className="job-button active">
             <span>Muze</span>
           </button>
           <button id="tab-1" className="job-button">
@@ -36,7 +36,25 @@ function Experience() {
           </button>
         </div>
         <div className="jobs-panel-list">
-          <div id="panel-0" className="job-panel">
+          <div id="panel-0" className="job-panel active">
+            <h3>
+              <span>Web developer </span>
+              <span className="company">
+                @
+                <a
+                  className="company-link"
+                  href="https://www.muze.nl/"
+                  target="_blank"
+                >
+                  Muze
+                </a>
+              </span>
+            </h3>
+            <p className="range">September 2021 - Present</p>
+            <List className="job-panel-content-list" listItems={listItems} />
+          </div>
+
+          <div id="panel-0" className="job-panel active">
             <h3>
               <span>Web developer </span>
               <span className="company">
@@ -59,4 +77,4 @@ function Experience() {
   );
 }
 
-export default Experience
+export default Experiences;

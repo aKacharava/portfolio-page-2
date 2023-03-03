@@ -37,6 +37,10 @@
   white-space: nowrap;
 }
 
+.job-button.active {
+  color: var(--orange);
+}
+
 .job-button:hover, 
 .job-button:active, 
 .job-button:focus {
@@ -53,6 +57,11 @@
   width: 100%;
   height: auto;
   padding: 10px 5px;
+  display: none;
+}
+
+.job-panel.active {
+  display: block;
 }
 
 .job-panel h3 {
