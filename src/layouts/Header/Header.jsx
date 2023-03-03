@@ -1,5 +1,4 @@
 import "./Header.css";
-import Button from "../../components/Button/Button";
 import HeaderSmall from "./HeaderSmall";
 import { useState } from "react";
 
