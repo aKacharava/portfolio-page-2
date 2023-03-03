@@ -2,11 +2,13 @@
   width: 100%;
   height: auto;
   padding: 10px 5px;
-  display: none;
+  opacity: 0;
+  transition: var(--transition-panel);
+  position: absolute;
 }
 
 .job-panel.active {
-  display: block;
+  opacity: 1;
 }
 
 .job-panel h3 {

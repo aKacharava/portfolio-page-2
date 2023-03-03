@@ -33,6 +33,7 @@
   --nav-scroll-height: 70px;
   --tab-height: 42px;
   --transition: all 225ms cubic-bezier(0.645,0.045,0.355,1);
+  --transition-panel: all 500ms cubic-bezier(0.645,0.045,0.355,1);
   --hamburger-before: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
   --hamburger-before-active: top 0.1s ease-out,opacity 0.1s ease-out 0.12s;
   --hamburger-after: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);

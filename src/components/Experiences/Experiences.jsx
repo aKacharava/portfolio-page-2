@@ -68,6 +68,7 @@ function Experiences() {
           >
             <span>Recreate</span>
           </button>
+          <div class={"jobs-highlighted tab" + toggleTab}></div>
         </div>
         <div className="jobs-panel-list">
           <Experience
