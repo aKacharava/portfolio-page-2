@@ -1,6 +1,5 @@
 import "./Experiences.css";
 import Experience from "./Experience/Experience";
-import { useState } from "react";
 
 const muzeItems = [
   {
@@ -21,13 +20,25 @@ const muzeItems = [
 ];
 
 function Experiences() {
-  //const [isPanelHidden, setIsPanelHidden] = useState(false);
-  //const [isTabSelected, setIsTabSelected] = useState(true);
+  function togglePanelDisplay(element) {
+    const allTabs = document.querySelector(".jobs-button-list").childNodes;
+    const allPanels = document.querySelector(".jobs-panel-list").childNodes;
+    const currentElement = element.target.offsetParent;
+    const tabControlId = currentElement.attributes[5].value;
+    const tabPan = document.querySelector("#" + tabControlId);
+    
+    // Deselect all tabs
+    allTabs.forEach((tab)=>{
+      tab.classList.remove("active");
+    });
 
-  const allTabs = document.querySelectorAll('.job-button[role="tab"]');
+    // Hide all panels
+    allPanels.forEach((panel) => {
+      panel.classList.remove("active");
+    });
 
-  function togglePanelDisplay() {
-    const allTabs = document.querySelector('.job-button[role="tab"]');
+    currentElement.classList.add("active");
+    tabPan.classList.add("active");
   }
 
   return (
@@ -38,40 +49,28 @@ function Experiences() {
           <button
             id="tab-3"
             className="job-button active"
-            role="tab"
-            tabIndex="0"
-            aria-selected="true"
-            aria-controls="panel-3"
+            onClick={togglePanelDisplay}
           >
             <span>Coddin</span>
           </button>
           <button
             id="tab-2"
             className="job-button"
-            role="tab"
-            tabIndex="-1"
-            aria-selected="false"
-            aria-controls="panel-2"
+            onClick={togglePanelDisplay}
           >
             <span>Muze</span>
           </button>
           <button
             id="tab-1"
             className="job-button"
-            role="tab"
-            tabIndex="-1"
-            aria-selected="false"
-            aria-controls="panel-1"
+            onClick={togglePanelDisplay}
           >
             <span>MediaFris</span>
           </button>
           <button
             id="tab-0"
             className="job-button"
-            role="tab"
-            tabIndex="-1"
-            aria-selected="false"
-            aria-controls="panel-0"
+            onClick={togglePanelDisplay}
           >
             <span>Recreate</span>
           </button>
@@ -80,10 +79,6 @@ function Experiences() {
           <Experience
             pannelId="panel-3"
             className="job-panel active"
-            labelledBy="tab-3"
-            selected="true"
-            hidden="false"
-            tabIndex="0"
             title="Junior/Medior Web Developer"
             companyLink="https://coddin.nl/"
             company="Coddin"
@@ -93,10 +88,6 @@ function Experiences() {
           <Experience
             pannelId="panel-2"
             className="job-panel"
-            labelledBy="tab-2"
-            selected="false"
-            hidden="true"
-            tabIndex="-1"
             title="Junior Web Developer"
             companyLink="https://www.muze.nl/"
             company="Muze"
@@ -106,10 +97,6 @@ function Experiences() {
           <Experience
             pannelId="panel-1"
             className="job-panel"
-            labelledBy="tab-1"
-            selected="false"
-            hidden="true"
-            tabIndex="-1"
             title="Intern Front-end Developer"
             companyLink="https://mediafris.nl/"
             company="MediaFris"
@@ -119,10 +106,6 @@ function Experiences() {
           <Experience
             pannelId="panel-0"
             className="job-panel"
-            labelledBy="tab-0"
-            selected="false"
-            hidden="true"
-            tabIndex="-1"
             title="Intern Front-end Developer"
             companyLink="https://recreate.nl/"
             company="Recreate"

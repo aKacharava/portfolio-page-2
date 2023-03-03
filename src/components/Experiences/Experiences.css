@@ -35,9 +35,10 @@
   font-size: var(--font-m);
   text-align: left;
   white-space: nowrap;
+  cursor: pointer;
 }
 
-.job-button[aria-selected='true'] {
+.job-button.active {
   color: var(--orange);
 }
 

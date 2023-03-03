@@ -6,11 +6,6 @@ function Experience(props) {
     <div
       id={props.pannelId}
       className={props.className}
-      aria-labelledby={props.labelledBy}
-      aria-selected={props.selected}
-      aria-hidden={props.hidden}
-      role="tabpanel"
-      tabIndex={props.tabIndex}
     >
       <h3>
         <span>{props.title}</span>
