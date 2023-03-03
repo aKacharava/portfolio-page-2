@@ -37,7 +37,7 @@
   white-space: nowrap;
 }
 
-.job-button.active {
+.job-button[aria-selected='true'] {
   color: var(--orange);
 }
 
@@ -51,58 +51,6 @@
   position: relative;
   width: 100%;
   margin-left: 20px;
-}
-
-.job-panel {
-  width: 100%;
-  height: auto;
-  padding: 10px 5px;
-  display: none;
-}
-
-.job-panel.active {
-  display: block;
-}
-
-.job-panel h3 {
-  margin-bottom: 2px;
-  font-size: var(--font-xxl);
-  font-weight: 500;
-  line-height: 1.3;
-}
-
-.job-panel h3 .company {
-  color: var(--orange);
-}
-
-.company-link {
-  display: inline-block;
-  text-decoration: none;
-  text-decoration-skip-ink: auto;
-  position: relative;
-  color: var(--orange);
-}
-
-.company-link::after {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 1px;
-  position: relative;
-  bottom: 0.37em;
-  background-color: var(--orange);
-  opacity: 0.5;
-}
-
-.job-panel .range {
-  margin-bottom: 25px;
-  color: var(--light-purple);
-  font-family: var(--font-mono);
-  font-size: var(--font-m);
-}
-
-.job-panel-content-list > li {
-  font-family: var(--font-default);
 }
 
 @media (max-width: 768px) {
