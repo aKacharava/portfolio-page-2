@@ -108,11 +108,37 @@
     min-width: 120px;
     padding: 0px 15px;
     border-left: 0px none;
-    border-bottom: 2px solid var(--lightest-purple);
+    border-bottom: 2px solid var(--slate-purple);
     text-align: center;
   }
 
   .jobs-panel-list {
     margin-left: 0;
+  }
+
+  .jobs-highlighted {
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    margin-left: 50px;
+    width: 100%;
+    max-width: var(--tab-width);
+    height: 2px;
+  }
+
+  .jobs-highlighted.tab3 {
+    transform: translateX(calc(0 * var(--tab-width)));
+  }
+
+  .jobs-highlighted.tab2 {
+    transform: translateX(calc(1 * var(--tab-width)));
+  }
+
+  .jobs-highlighted.tab1 {
+    transform: translateX(calc(2 * var(--tab-width)));
+  }
+
+  .jobs-highlighted.tab0 {
+    transform: translateX(calc(3 * var(--tab-width)));
   }
 }
