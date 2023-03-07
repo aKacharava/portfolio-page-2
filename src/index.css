@@ -13,6 +13,7 @@
   --dark-purple: #14041f;
   --purple: #4d446c;
   --slate-purple: #392d42;
+  --dark-slate-purple: #2c1140;
   --light-purple: #a38fb1;
   --lightest-purple: #edd3ff;
 
@@ -162,7 +163,7 @@ a:active {
 section {
   margin: 0px auto;
   padding: 100px 0px;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 .heading {
