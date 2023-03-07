@@ -12,16 +12,14 @@ const volkorenTvTech = [
 
 const fuchsiaGradientTech = [
   { id: 1, content: "JavaScript (ES6+)" },
-  { id: 3, content: "Vue.js" },
-  { id: 4, content: "Node.js" },
+  { id: 2, content: "Vue.js" }
 ]
 
 const reactMealsTech = [
   { id: 1, content: "JavaScript (ES6+)" },
   { id: 2, content: "React" },
-  { id: 3, content: "Vue.js" },
-  { id: 4, content: "Node.js" },
-]
+  { id: 3, content: "Vite" }
+];
 
 function Projects() {
   return (
