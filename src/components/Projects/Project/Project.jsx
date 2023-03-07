@@ -12,7 +12,7 @@ function Project(props) {
           </a>
         </h3>
         <div className="project-description">
-          <p>{props.description}</p>
+          <p>{props.children}</p>
         </div>
         <List className="project-tech-list" listItems={props.tech} />
         <div className="project-links">
