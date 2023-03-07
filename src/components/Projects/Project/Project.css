@@ -129,6 +129,10 @@
   font-size: var(--font-xs);
 }
 
+.project-item .project-description p {
+  font-weight: 400;
+}
+
 .project-item .project-tech-list {
   display: flex;
   flex-wrap: wrap;
