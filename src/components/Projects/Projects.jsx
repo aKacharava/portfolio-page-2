@@ -1,5 +1,6 @@
 import './Projects.css'
 import projectImg from '../../assets/img/logo.png'
+import volkorenTv from "../../assets/img/projects/volkorentv.png";
 import Project from './Project/Project'
 
 const projectTechMuze = [
@@ -11,17 +12,20 @@ const projectTechMuze = [
 
 function Projects() {
   return (
-    <section className="projects" id='projects'>
+    <section className="projects" id="projects">
       <h2 className="heading">Some stuff I've built</h2>
       <ul>
         <Project
           url="https://example.com/"
           title="first"
-          description="FOO BAAR BAZ"
           tech={projectTechMuze}
           githubUrl="https://example.com/"
-          imgSrc={projectImg}
-        />
+          imgSrc={volkorenTv}
+        >
+          A platform where you can check out videos from the Dutch and Flemish
+          choral world. From classical chorus to modern acapella groups, you can
+          find it all on <a href="https://volkoren.tv/">VolKoren.tv</a>.
+        </Project>
         <Project
           url="https://example.com/"
           title="second"
