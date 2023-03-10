@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Experiences.css";
 import Experience from "./Experience/Experience";
 
-const muzeItems = [
+const coddinItems = [
   {
     id: 1,
     content:
@@ -11,12 +11,66 @@ const muzeItems = [
   {
     id: 2,
     content:
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
+      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, React, and Vue",
   },
   {
     id: 3,
     content:
-      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+      "Communicate with teams of engineers and clients on a daily basis",
+  },
+];
+
+const muzeItems = [
+  {
+    id: 1,
+    content:
+      "Learned how to use different set of tools to create a wide variaty of products",
+  },
+  {
+    id: 2,
+    content:
+      "Work with a small, but experienced, team of developers that create webapps",
+  },
+  {
+    id: 3,
+    content:
+      "Interfaced with clients on a weekly basis, providing technological expertise",
+  },
+];
+
+const mediafrisItems = [
+  {
+    id: 1,
+    content:
+      "Got an introduction to work with different kinds of branches in a company",
+  },
+  {
+    id: 2,
+    content:
+      "The start-up where I created the WordPress theme for VolKoren.tv",
+  },
+  {
+    id: 3,
+    content:
+      "Introduced a different workflow within the team",
+  },
+];
+
+const recreateItems = [
+  {
+    id: 1,
+    content:
+      "The first internship where I experienced different kinds of developers",
+  },
+  {
+    id: 2,
+    content:
+      "Got an introduction to Agile, learned how to work with Scrum and version control",
+  },
+  {
+    id: 3,
+    content:
+      "Advanced my skills in HTML, CSS and JavaScript and also different concepts like classes, OOP, etc.",
   },
 ];
 
@@ -78,7 +132,7 @@ function Experiences() {
             companyLink="https://coddin.nl/"
             company="Coddin"
             companyDate="April 2023 - Present"
-            listItems={muzeItems}
+            listItems={coddinItems}
           />
           <Experience
             pannelId="panel-2"
@@ -96,7 +150,7 @@ function Experiences() {
             companyLink="https://mediafris.nl/"
             company="MediaFris"
             companyDate="September 2018 - January 2019"
-            listItems={muzeItems}
+            listItems={mediafrisItems}
           />
           <Experience
             pannelId="panel-0"
@@ -105,7 +159,7 @@ function Experiences() {
             companyLink="https://recreate.nl/"
             company="Recreate"
             companyDate="September 2017 - January 2018"
-            listItems={muzeItems}
+            listItems={recreateItems}
           />
         </div>
       </div>
