@@ -60,7 +60,7 @@ const recreateItems = [
   {
     id: 1,
     content:
-      "The first internship where I experienced different kinds of developers",
+      "The first internship where I experienced different types of developers",
   },
   {
     id: 2,
