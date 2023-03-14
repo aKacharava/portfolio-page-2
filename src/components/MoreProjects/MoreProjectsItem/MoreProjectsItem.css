@@ -39,7 +39,7 @@
 }
 
 .more-project-top .folder {
-  fill: var(--orange);
+  fill: var(--yellow);
 }
 
 .more-project-top .folder svg {
@@ -67,7 +67,7 @@
 }
 
 .more-project-top .link a:hover {
-  fill: var(--orange);
+  fill: var(--yellow);
 }
 
 .more-project-top .link a svg {
@@ -118,9 +118,9 @@
 }
 
 .more-project-tech-list li:not(:first-of-type) {
-  margin-left: 15px
+  margin-left: 15px;
 }
 
 .more-project-tech-list li::before {
-  content: ""
+  content: "";
 }

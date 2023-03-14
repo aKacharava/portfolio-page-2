@@ -9,7 +9,7 @@
 }
 .hero a {
   font-weight: 400;
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .hero-title {
@@ -20,7 +20,7 @@
 
 .hero-title > h1 {
   margin: 0px 0px 30px 4px;
-  color: var(--orange);
+  color: var(--yellow);
   font-family: var(--font-mono);
   font-size: clamp(var(--font-xl), 5vw, var(--font-xxl));
   font-weight: 400;
@@ -55,9 +55,9 @@
 }
 
 .hero-scroll-down {
-  color: var(--orange);
+  color: var(--yellow);
   background-color: transparent;
-  border: 1px solid var(--orange);
+  border: 1px solid var(--yellow);
   border-radius: var(--border-rad);
   padding: 1.25rem 1.75rem;
   font-size: var(--font-s);
@@ -69,7 +69,7 @@
 }
 
 .hero-scroll-down:hover {
-  background-color: var(--transparent-orange);
+  background-color: var(--transparent-yellow);
 }
 
 @media (max-width: 1080px) {

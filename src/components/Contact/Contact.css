@@ -7,7 +7,7 @@
 .overline {
   display: block;
   margin-bottom: 20px;
-  color: var(--orange);
+  color: var(--yellow);
   font-family: var(--font-mono);
   font-size: var(--font-l);
 }
@@ -17,9 +17,9 @@
 }
 
 .email-link {
-  color: var(--orange);
+  color: var(--yellow);
   background-color: transparent;
-  border: 1px solid var(--orange);
+  border: 1px solid var(--yellow);
   border-radius: var(--border-rad);
   padding: 1.25rem 1.75rem;
   font-size: var(--font-m);
@@ -32,5 +32,5 @@
 }
 
 .email-link:hover {
-  background-color: var(--transparent-orange);
+  background-color: var(--transparent-yellow);
 }

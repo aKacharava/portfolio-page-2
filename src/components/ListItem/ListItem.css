@@ -2,7 +2,7 @@
   content: "▹";
   position: absolute;
   left: 0px;
-  color: var(--orange);
+  color: var(--yellow);
   font-size: var(--font-s);
   line-height: 12px;
 }

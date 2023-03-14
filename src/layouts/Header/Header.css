@@ -59,9 +59,9 @@ nav {
 }
 
 .header-button {
-  color: var(--orange);
+  color: var(--yellow);
   background-color: transparent;
-  border: 1px solid var(--orange);
+  border: 1px solid var(--yellow);
   border-radius: var(--border-rad);
   padding: 0.75rem 1rem;
   font-size: var(--font-m);
@@ -74,7 +74,7 @@ nav {
 }
 
 .header-button:hover {
-  background-color: var(--transparent-orange);
+  background-color: var(--transparent-yellow);
 }
 
 .blur {
@@ -143,7 +143,7 @@ nav {
     width: var(--hamburger-width);
     height: 2px;
     border-radius: var(--border-rad);
-    background-color: var(--orange);
+    background-color: var(--yellow);
     transition: var(--transition);
     transform: rotate(0deg);
   }
@@ -158,7 +158,7 @@ nav {
     width: var(--hamburger-width);
     height: 2px;
     border-radius: 4px;
-    background-color: var(--orange);
+    background-color: var(--yellow);
     transition-timing-function: ease;
     transition-duration: 0.15s;
     transition-property: transform;
@@ -247,9 +247,9 @@ nav {
   }
 
   .menu-nav-side .header-button {
-    color: var(--orange);
+    color: var(--yellow);
     background-color: transparent;
-    border: 1px solid var(--orange);
+    border: 1px solid var(--yellow);
     border-radius: var(--border-rad);
     font-size: var(--font-s);
     font-family: var(--font-mono);

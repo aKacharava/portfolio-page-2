@@ -21,7 +21,7 @@
 }
 
 .job-panel h3 .company {
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .company-link {
@@ -29,7 +29,7 @@
   text-decoration: none;
   text-decoration-skip-ink: auto;
   position: relative;
-  color: var(--orange);
+  color: var(--yellow);
   transition: var(--transition);
 }
 
@@ -40,15 +40,15 @@
   height: 1px;
   position: relative;
   bottom: 0.15em;
-  background-color: var(--orange);
+  background-color: var(--yellow);
   transition: var(--transition);
   opacity: 0.5;
 }
 
-.company-link:hover::after, 
-.company-link:focus::after, 
+.company-link:hover::after,
+.company-link:focus::after,
 .company-link:active::after {
-    width: 100%;
+  width: 100%;
 }
 
 .job-panel .range {

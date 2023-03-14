@@ -15,7 +15,7 @@
   position: relative;
   width: 100%;
   border-radius: var(--border-rad);
-  background-color: var(--orange);
+  background-color: var(--yellow);
 }
 
 .about-img-container .about-img-wrapper::before,
@@ -37,7 +37,7 @@
 }
 
 .about-img-container .about-img-wrapper::after {
-  border: 2px solid var(--orange);
+  border: 2px solid var(--yellow);
   top: 20px;
   left: 20px;
   z-index: -1;

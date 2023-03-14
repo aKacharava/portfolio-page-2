@@ -8,8 +8,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --orange: #ffaa60;
-  --transparent-orange: rgba(255, 170, 96, 0.1);
+  --yellow: #f7b30d;
+  --transparent-yellow: rgba(247, 179, 13, 0.1);
   --dark-purple: #14041f;
   --purple: #4d446c;
   --slate-purple: #392d42;
@@ -34,12 +34,14 @@
   --nav-scroll-height: 70px;
   --tab-width: 120px;
   --tab-height: 42px;
-  --transition: all 225ms cubic-bezier(0.645,0.045,0.355,1);
-  --transition-panel: all 500ms cubic-bezier(0.645,0.045,0.355,1);
-  --hamburger-before: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
-  --hamburger-before-active: top 0.1s ease-out,opacity 0.1s ease-out 0.12s;
-  --hamburger-after: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
-  --hamburger-after-active: bottom 0.1s ease-out,transform 0.22s cubic-bezier(0.215,0.61,0.355,1) 0.12s;
+  --transition: all 225ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition-panel: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  --hamburger-before: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+  --hamburger-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+  --hamburger-after: bottom 0.1s ease-in 0.25s,
+    transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --hamburger-after-active: bottom 0.1s ease-out,
+    transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
 }
 
 /* Resets CSS */
@@ -97,7 +99,7 @@ p > a {
   text-decoration-skip-ink: auto;
   position: relative;
   transition: var(--transition);
-  color: var(--orange);
+  color: var(--yellow);
   font-weight: 300;
 }
 
@@ -108,13 +110,15 @@ p > a::after {
   height: 0.8px;
   position: relative;
   bottom: 0.1em;
-  background-color: var(--orange);
+  background-color: var(--yellow);
   transition: var(--transition);
   opacity: 0.5;
 }
 
-p > a:hover::after, p > a:focus::after, p > a:active::after {
-    width: 100%;
+p > a:hover::after,
+p > a:focus::after,
+p > a:active::after {
+  width: 100%;
 }
 
 ol,
@@ -156,7 +160,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: var(--orange);
+  color: var(--yellow);
   outline: 0px;
 }
 
@@ -174,7 +178,7 @@ section {
   margin: 10px 0px 40px;
   width: 100%;
   white-space: nowrap;
-  font-size: clamp(26px,5vw,var(--font-heading));
+  font-size: clamp(26px, 5vw, var(--font-heading));
 }
 
 .heading::after {
@@ -187,7 +191,6 @@ section {
   margin-left: 20px;
   background-color: var(--slate-purple);
 }
-
 
 @media (max-width: 1080px) {
   main {
