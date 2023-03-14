@@ -10,7 +10,7 @@ function HeaderSmall(props) {
             <div className="hamburger-box-inner"></div>
           </div>
         </button>
-        <HeaderSmallNav />
+        <HeaderSmallNav toggleNavHandler={props.toggleNavHandler} />
       </div>
     </div>
   );

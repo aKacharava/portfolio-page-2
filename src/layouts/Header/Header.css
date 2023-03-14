@@ -94,6 +94,7 @@ nav .logo a svg {
   display: block;
   transition: var(--transition);
   pointer-events: none;
+  cursor: pointer;
 }
 
 .blur.active {
