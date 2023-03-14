@@ -1,9 +1,9 @@
-import './Contact.css'
-import logo from "../../assets/img/logo.png";
+import "./Contact.css";
+import logo from "../../assets/img/logo.svg";
 
 function Contact() {
   return (
-    <section className="contact" id='contact'>
+    <section className="contact" id="contact">
       <h2 className="overline">Want to know more?</h2>
       <h2 className="title">Get In Touch</h2>
       <p>
@@ -23,4 +23,4 @@ function Contact() {
   );
 }
 
-export default Contact
+export default Contact;

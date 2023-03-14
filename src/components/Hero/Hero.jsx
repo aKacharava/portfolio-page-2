@@ -1,5 +1,5 @@
-import './Hero.css'
-import logo from '../../assets/img/logo.png'
+import "./Hero.css";
+import logo from "../../assets/img/logo.png";
 
 function Hero() {
   return (
@@ -25,7 +25,9 @@ function Hero() {
             .
           </p>
         </div>
-        <a className="hero-scroll-down" href='#about'>Scroll Down!</a>
+        <a className="hero-scroll-down" href="#about">
+          Scroll Down!
+        </a>
       </div>
       <div className="hero-img-container">
         <img src={logo} />
@@ -34,4 +36,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Hero;

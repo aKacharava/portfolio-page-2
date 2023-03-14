@@ -1,7 +1,7 @@
-import './About.css'
-import logo from "../../assets/img/logo.png";
+import "./About.css";
+import profile from "../../assets/img/profile-pic.jpg";
 
-import List from '../List/List'
+import List from "../List/List";
 
 const listItems = [
   { id: 1, content: "JavaScript (ES6+)" },
@@ -9,7 +9,7 @@ const listItems = [
   { id: 3, content: "Vue.js" },
   { id: 4, content: "Node.js" },
   { id: 5, content: "SimplyEdit" },
-  { id: 6, content: "PHP" }
+  { id: 6, content: "PHP" },
 ];
 
 function About() {
@@ -21,7 +21,7 @@ function About() {
           <div className="about-img-wrapper">
             <div>
               <div>
-                <img src={logo} />
+                <img src={profile} />
               </div>
             </div>
           </div>
@@ -64,4 +64,4 @@ function About() {
   );
 }
 
-export default About
+export default About;

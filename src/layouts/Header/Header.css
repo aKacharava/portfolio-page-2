@@ -28,6 +28,12 @@ nav {
   z-index: 12;
 }
 
+nav .logo a svg {
+  fill: var(--yellow);
+  width: 84px;
+  height: 84px;
+}
+
 .menu-nav {
   display: flex;
   align-items: center;
