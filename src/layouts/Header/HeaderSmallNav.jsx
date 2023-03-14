@@ -1,6 +1,5 @@
 import "./Header.css";
 import Button from "../../components/Button/Button";
-import { Fragment } from "react";
 
 function HeaderSmallNav() {
   return (
