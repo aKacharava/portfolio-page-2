@@ -217,7 +217,7 @@ nav .logo a svg {
     width: min(75vw, 400px);
     height: 100vh;
     outline: 0px;
-    background-color: var(--slate-purple);
+    background-color: var(--dark-slate-purple);
     box-shadow: -10px 0px 30px -15px black;
     z-index: 9;
     transform: translateX(100vw);
