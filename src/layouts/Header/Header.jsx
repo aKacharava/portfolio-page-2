@@ -1,7 +1,6 @@
 import "./Header.css";
 import HeaderSmall from "./HeaderSmall";
 import { useState } from "react";
-import logo from "../../assets/img/logo.svg";
 
 function Header() {
   const [isNavDisplayed, setIsNavDisplayed] = useState(false);
