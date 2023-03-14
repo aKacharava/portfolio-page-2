@@ -1,24 +1,24 @@
-import './Projects.css'
-import volkorenTv from "../../assets/img/projects/volkorentv.png";
-import fuchsiaGradient from "../../assets/img/projects/fuschia-gradient.png";
-import reactMeals from "../../assets/img/projects/reactmeals.png";
-import Project from './Project/Project'
+import "./Projects.css";
+import volkorenTv from "../../../public/img/projects/volkorentv.png";
+import fuchsiaGradient from "../../../public/img/projects/fuschia-gradient.png";
+import reactMeals from "../../../public/img/projects/reactmeals.png";
+import Project from "./Project/Project";
 
 const volkorenTvTech = [
   { id: 1, content: "JavaScript (ES6+)" },
   { id: 2, content: "WordPress" },
-  { id: 3, content: "PHP" }
-]
+  { id: 3, content: "PHP" },
+];
 
 const fuchsiaGradientTech = [
   { id: 1, content: "JavaScript (ES6+)" },
-  { id: 2, content: "Vue.js" }
-]
+  { id: 2, content: "Vue.js" },
+];
 
 const reactMealsTech = [
   { id: 1, content: "JavaScript (ES6+)" },
   { id: 2, content: "React" },
-  { id: 3, content: "Vite" }
+  { id: 3, content: "Vite" },
 ];
 
 function Projects() {
@@ -76,4 +76,4 @@ function Projects() {
   );
 }
 
-export default Projects
+export default Projects;

@@ -1,5 +1,5 @@
 import "./About.css";
-import profile from "../../assets/img/profile-pic.jpg";
+import profile from "../../../public/img/profile-pic.jpg";
 
 import List from "../List/List";
 
