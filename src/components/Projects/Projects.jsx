@@ -1,7 +1,7 @@
 import "./Projects.css";
-import volkorenTv from "../../../public/img/projects/volkorentv.png";
-import fuchsiaGradient from "../../../public/img/projects/fuschia-gradient.png";
-import reactMeals from "../../../public/img/projects/reactmeals.png";
+import volkorenTv from "../../..//img/projects/volkorentv.png";
+import fuchsiaGradient from "../../..//img/projects/fuschia-gradient.png";
+import reactMeals from "../../..//img/projects/reactmeals.png";
 import Project from "./Project/Project";
 
 const volkorenTvTech = [
