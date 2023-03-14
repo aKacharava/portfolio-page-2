@@ -196,6 +196,7 @@ section {
 @media (max-width: 1080px) {
   main {
     padding: 0px 100px;
+    margin-top: 25px;
   }
 }
 
