@@ -41,14 +41,14 @@
 
 .job-button.active {
   color: var(--yellow);
-  background-color: var(--slate-purple);
+  background-color: var(--dark-slate-purple);
 }
 
 .job-button:hover,
 .job-button:active,
 .job-button:focus {
   color: var(--yellow);
-  background-color: var(--slate-purple);
+  background-color: var(--dark-slate-purple);
 }
 
 .jobs-panel-list {

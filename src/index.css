@@ -74,7 +74,7 @@ body.body-blur {
 }
 
 ::selection {
-  background: var(--slate-purple);
+  background: var(--dark-slate-purple);
   color: var(--lightest-purple);
 }
 

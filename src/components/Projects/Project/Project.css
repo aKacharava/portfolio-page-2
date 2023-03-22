@@ -124,7 +124,7 @@
   z-index: 2;
   padding: 25px;
   border-radius: var(--border-rad);
-  background-color: var(--slate-purple);
+  background-color: var(--dark-slate-purple);
   color: var(--light-purple);
   font-size: var(--font-m);
   font-weight: 400;
