@@ -47,8 +47,8 @@ function About() {
               and a{" "}
               <a href="https://www.muze.nl/" target="_blank">
                 web agency
-              </a>{" "}
-              with 25+ years of experience. My main focus these days is building
+              </a>{". "}
+              My main focus these days is building
               accessible, inclusive products and digital experiences at{" "}
               <a href="https://www.coddin.nl/" target="_blank">
                 Coddin
