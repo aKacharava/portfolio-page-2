@@ -155,7 +155,7 @@ function Experiences() {
           <Experience
               pannelId="panel-4"
               className={toggleTab === 4 ? "job-panel active" : "job-panel"}
-              title="Medior Web Developer"
+              title="Web Developer"
               companyLink="https://cube.nl/"
               company="Cube"
               companyDate="May 2024 - Present"
