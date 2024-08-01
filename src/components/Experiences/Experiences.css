@@ -69,20 +69,24 @@
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
 }
 
-.jobs-highlighted.tab3 {
+.jobs-highlighted.tab4 {
   transform: translateY(calc(0 * var(--tab-height)));
 }
 
-.jobs-highlighted.tab2 {
+.jobs-highlighted.tab3 {
   transform: translateY(calc(1 * var(--tab-height)));
 }
 
-.jobs-highlighted.tab1 {
+.jobs-highlighted.tab2 {
   transform: translateY(calc(2 * var(--tab-height)));
 }
 
-.jobs-highlighted.tab0 {
+.jobs-highlighted.tab1 {
   transform: translateY(calc(3 * var(--tab-height)));
+}
+
+.jobs-highlighted.tab0 {
+  transform: translateY(calc(4 * var(--tab-height)));
 }
 
 @media (max-width: 768px) {
@@ -126,19 +130,23 @@
     height: 2px;
   }
 
-  .jobs-highlighted.tab3 {
+  .jobs-highlighted.tab4 {
     transform: translateX(calc(0 * var(--tab-width)));
   }
 
-  .jobs-highlighted.tab2 {
+  .jobs-highlighted.tab3 {
     transform: translateX(calc(1 * var(--tab-width)));
   }
 
-  .jobs-highlighted.tab1 {
+  .jobs-highlighted.tab2 {
     transform: translateX(calc(2 * var(--tab-width)));
   }
 
-  .jobs-highlighted.tab0 {
+  .jobs-highlighted.tab1 {
     transform: translateX(calc(3 * var(--tab-width)));
+  }
+
+  .jobs-highlighted.tab0 {
+    transform: translateX(calc(4 * var(--tab-width)));
   }
 }

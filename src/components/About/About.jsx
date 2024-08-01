@@ -7,8 +7,8 @@ const listItems = [
   { id: 1, content: "JavaScript (ES6+)" },
   { id: 2, content: "React" },
   { id: 3, content: "Vue.js" },
-  { id: 4, content: "Node.js" },
-  { id: 5, content: "SimplyEdit" },
+  { id: 4, content: "Tailwind CSS" },
+  { id: 5, content: "Laravel" },
   { id: 6, content: "PHP" },
 ];
 
@@ -21,7 +21,7 @@ function About() {
           <div className="about-img-wrapper">
             <div>
               <div>
-                <img src={profile} />
+                <img src={ profile }  alt='profile image'/>
               </div>
             </div>
           </div>

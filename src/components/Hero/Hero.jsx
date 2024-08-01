@@ -30,7 +30,7 @@ function Hero() {
         </a>
       </div>
       <div className="hero-img-container">
-        <img src={logo} />
+        <img src={logo}  alt='logo'/>
       </div>
     </section>
   );
