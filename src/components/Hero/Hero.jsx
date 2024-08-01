@@ -19,8 +19,8 @@ function Hero() {
             I’m a software engineer specializing in building exceptional web
             apps. Currently, I’m focused on building accessible, human-friendly
             products at{" "}
-            <a href="https://www.coddin.nl/" target="_blank">
-              Coddin
+            <a href="https://cube.nl/" target="_blank">
+              Cube
             </a>
             .
           </p>

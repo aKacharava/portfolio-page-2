@@ -37,21 +37,21 @@ function About() {
             </p>
             <p>
               Fast-forward to today, and I’ve had the privilege of working at a{" "}
-              <a href="https://recreate.nl/" target="_blank">
-                VR/AR agency
-              </a>
-              ,{" "}
               <a href="https://mediafris.nl/" target="_blank">
                 a start-up
-              </a>{" "}
-              and a{" "}
+              </a>
+              ,{" "}
               <a href="https://www.muze.nl/" target="_blank">
                 web agency
+              </a>{" "}
+              and a{" "}
+              <a href="https://www.coddin.nl/" target="_blank">
+                software & application company
               </a>{". "}
               My main focus these days is building
               accessible, inclusive products and digital experiences at{" "}
-              <a href="https://www.coddin.nl/" target="_blank">
-                Coddin
+              <a href="https://cube.nl/" target="_blank">
+                Cube
               </a>{" "}
               for a variety of clients.
             </p>
