@@ -36,4 +36,4 @@ jobs:
 
       - name: Deploy
         run: |
-          rsync -avz -e "ssh -p 22 -o LogLevel=DEBUG3" ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:www/
+          rsync -avz -e "ssh -p 22 -o LogLevel=DEBUG3" ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/www
