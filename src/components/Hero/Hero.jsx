@@ -7,7 +7,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-text-container">
         <div className="hero-title">
-          <h1>Hi,</h1>
+          <h1>Hi there,</h1>
         </div>
         <div className="hero-title">
           <h2 className="hero-big-title">I'm Alex,</h2>
