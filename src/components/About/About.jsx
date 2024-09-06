@@ -2,14 +2,16 @@ import "./About.css";
 import profile from "../../..//img/profile-pic.jpg";
 
 import List from "../List/List";
+import experience from "../Experiences/Experience/Experience.jsx";
+import {experiences} from "../../data/experiences.js";
 
 const listItems = [
   { id: 1, content: "JavaScript (ES6+)" },
   { id: 2, content: "React" },
-  { id: 3, content: "Vue.js" },
+  { id: 3, content: "Vue 3" },
   { id: 4, content: "Tailwind CSS" },
-  { id: 5, content: "Laravel" },
-  { id: 6, content: "PHP" },
+  { id: 5, content: "AstroJS" },
+  { id: 6, content: "TypeScript" },
 ];
 
 function About() {
@@ -37,21 +39,21 @@ function About() {
             </p>
             <p>
               Fast-forward to today, and I’ve had the privilege of working at a{" "}
-              <a href="https://mediafris.nl/" target="_blank">
-                a start-up
+              <a href="https://www.muze.nl/" target="_blank">
+                a web agency
               </a>
               ,{" "}
-              <a href="https://www.muze.nl/" target="_blank">
-                web agency
-              </a>{" "}
-              and a{" "}
               <a href="https://www.coddin.nl/" target="_blank">
                 software & application company
+              </a>{" "}
+              and a{" "}
+              <a href="https://cube.nl/" target="_blank">
+                digital agency
               </a>{". "}
               My main focus these days is building
               accessible, inclusive products and digital experiences at{" "}
-              <a href="https://cube.nl/" target="_blank">
-                Cube
+              <a href={experiences[0].link} target="_blank">
+                {experiences[0].name}
               </a>{" "}
               for a variety of clients.
             </p>

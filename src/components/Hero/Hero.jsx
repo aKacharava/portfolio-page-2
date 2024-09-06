@@ -1,5 +1,6 @@
 import "./Hero.css";
-import logo from "../../..//img/logo.png";
+import logo from "../../../img/logo.png";
+import {experiences} from "../../data/experiences.js";
 
 function Hero() {
   return (
@@ -19,14 +20,14 @@ function Hero() {
             I’m a software engineer specializing in building exceptional web
             apps. Currently, I’m focused on building accessible, human-friendly
             products at{" "}
-            <a href="https://cube.nl/" target="_blank">
-              Cube
+            <a href={experiences[0].link} target="_blank">
+              {experiences[0].name}
             </a>
             .
           </p>
         </div>
         <a className="hero-scroll-down" href="#about">
-          Scroll Down!
+        Scroll Down!
         </a>
       </div>
       <div className="hero-img-container">

@@ -11,8 +11,8 @@
   position: relative;
   z-index: 3;
   width: max-content;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -25,13 +25,13 @@
   align-items: center;
   width: 100%;
   height: var(--tab-height);
-  padding: 0px 20px 2px;
+  padding: 0 20px 2px;
   border: none;
   border-radius: 0;
   border-left: 2px solid var(--slate-purple);
   background-color: transparent;
   color: var(--light-purple);
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), serif;
   font-size: var(--font-m);
   text-align: left;
   white-space: nowrap;
@@ -59,8 +59,8 @@
 
 .jobs-highlighted {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: 10;
   width: 2px;
   height: var(--tab-height);
@@ -69,24 +69,28 @@
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
 }
 
-.jobs-highlighted.tab4 {
+.jobs-highlighted.tab5 {
   transform: translateY(calc(0 * var(--tab-height)));
 }
 
-.jobs-highlighted.tab3 {
+.jobs-highlighted.tab4 {
   transform: translateY(calc(1 * var(--tab-height)));
 }
 
-.jobs-highlighted.tab2 {
+.jobs-highlighted.tab3 {
   transform: translateY(calc(2 * var(--tab-height)));
 }
 
-.jobs-highlighted.tab1 {
+.jobs-highlighted.tab2 {
   transform: translateY(calc(3 * var(--tab-height)));
 }
 
-.jobs-highlighted.tab0 {
+.jobs-highlighted.tab1 {
   transform: translateY(calc(4 * var(--tab-height)));
+}
+
+.jobs-highlighted.tab0 {
+  transform: translateY(calc(5 * var(--tab-height)));
 }
 
 @media (max-width: 768px) {
@@ -110,8 +114,8 @@
     -moz-box-align: center;
     align-items: center;
     min-width: 120px;
-    padding: 0px 15px;
-    border-left: 0px none;
+    padding: 0 15px;
+    border-left: 0 none;
     border-bottom: 2px solid var(--slate-purple);
     text-align: center;
   }
@@ -123,30 +127,34 @@
   .jobs-highlighted {
     position: absolute;
     top: auto;
-    bottom: 0px;
+    bottom: 0;
     margin-left: 50px;
     width: 100%;
     max-width: var(--tab-width);
     height: 2px;
   }
 
-  .jobs-highlighted.tab4 {
+  .jobs-highlighted.tab5 {
     transform: translateX(calc(0 * var(--tab-width)));
   }
 
-  .jobs-highlighted.tab3 {
+  .jobs-highlighted.tab4 {
     transform: translateX(calc(1 * var(--tab-width)));
   }
 
-  .jobs-highlighted.tab2 {
+  .jobs-highlighted.tab3 {
     transform: translateX(calc(2 * var(--tab-width)));
   }
 
-  .jobs-highlighted.tab1 {
+  .jobs-highlighted.tab2 {
     transform: translateX(calc(3 * var(--tab-width)));
   }
 
-  .jobs-highlighted.tab0 {
+  .jobs-highlighted.tab1 {
     transform: translateX(calc(4 * var(--tab-width)));
+  }
+
+  .jobs-highlighted.tab0 {
+    transform: translateX(calc(5 * var(--tab-width)));
   }
 }
