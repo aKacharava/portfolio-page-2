@@ -10,9 +10,9 @@ function Experience(props) {
       <h3>
         <span>{props.title}</span>
         <span className="company">
-          @
+          {" "}
           <a className="company-link" href={props.companyLink} target="_blank">
-            {props.company}
+           @{props.company}
           </a>
         </span>
       </h3>
