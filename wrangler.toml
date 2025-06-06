@@ -1,5 +1,9 @@
-[site]
-bucket = "./dist"
+name = "portfolio-page-2"
+compatibility_date = "2025-06-06"
 
 [build]
-command = "npm run build" 
+command = "npm run build"
+cwd = "."
+
+[site]
+bucket = "./dist" 
