@@ -1,4 +1,4 @@
-import './Footer.css'
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -8,10 +8,10 @@ function Footer() {
         rel="noopener noreferrer"
         target="_blank"
       >
-        Built by AK Dev
+        Built by AK Forge
       </a>
     </footer>
   );
 }
 
-export default Footer
+export default Footer;

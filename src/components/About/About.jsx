@@ -1,14 +1,13 @@
 import "./About.css";
-import profile from "../../..//img/profile-pic.jpg";
+import profile from "../../../img/profile-pic.jpg";
 
 import List from "../List/List";
-import experience from "../Experiences/Experience/Experience.jsx";
-import {experiences} from "../../data/experiences.js";
+import { experiences } from "../../data/experiences.js";
 
 const listItems = [
-  { id: 1, content: "JavaScript (ES6+)" },
+  { id: 1, content: "Payload CMS" },
   { id: 2, content: "React" },
-  { id: 3, content: "Vue 3" },
+  { id: 3, content: "CloudCannon" },
   { id: 4, content: "Tailwind CSS" },
   { id: 5, content: "AstroJS" },
   { id: 6, content: "TypeScript" },
@@ -23,7 +22,7 @@ function About() {
           <div className="about-img-wrapper">
             <div>
               <div>
-                <img src={ profile }  alt='profile image'/>
+                <img src={profile} alt="profile image" />
               </div>
             </div>
           </div>
@@ -49,9 +48,10 @@ function About() {
               and a{" "}
               <a href="https://cube.nl/" target="_blank">
                 digital agency
-              </a>{". "}
-              My main focus these days is building
-              accessible, inclusive products and digital experiences at{" "}
+              </a>
+              {". "}
+              My main focus these days is building accessible, inclusive
+              products and digital experiences at{" "}
               <a href={experiences[0].link} target="_blank">
                 {experiences[0].name}
               </a>{" "}
