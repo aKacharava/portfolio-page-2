@@ -85,7 +85,7 @@ l1037 3 -517 635 c-284 349 -519 636 -524 638 -4 1 -240 -284 -524 -633z m831
           </ul>
           <a
             className="header-button"
-            href="./CV-Alexander-Kacharava.pdf"
+            href="/CV-Alexander-Kacharava.pdf"
             download
           >
             Resume
