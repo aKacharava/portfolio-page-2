@@ -6,10 +6,10 @@ import { experiences } from "../../data/experiences.js";
 
 const listItems = [
   { id: 1, content: "Payload CMS" },
-  { id: 2, content: "React" },
+  { id: 2, content: "Next.js" },
   { id: 3, content: "CloudCannon" },
   { id: 4, content: "Tailwind CSS" },
-  { id: 5, content: "AstroJS" },
+  { id: 5, content: "Astro" },
   { id: 6, content: "TypeScript" },
 ];
 

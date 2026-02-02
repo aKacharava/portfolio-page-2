@@ -78,7 +78,7 @@ function MoreProjects (){
         />
         <MoreProjectsItem
           title="A mock portfolio platform"
-          url="https://portfolio-platform.akdev.nl/"
+          url="https://portfolio-platform.akforge.dev/"
           githubUrl="https://github.com/aKacharava/portfolio-platform"
           description="Here, I wanted to further develop my CSS skills by creating a mock platform where people have their portfolios on."
           listItems={portfolioPlatformTech}
@@ -86,7 +86,7 @@ function MoreProjects (){
         <MoreProjectsItem
           title="My first attempt to HTML, CSS, JavaScript"
           githubUrl="https://github.com/aKacharava/webdesign_page"
-          url="https://itweb.akdev.nl/index.html"
+          url="https://itweb.akforge.dev/"
           description="This was one of my first serious attempts to create a responsive website in HTML, CSS, JavaScript. This is a project that taught me the concept of 'Responsive Web Design' and further solidified my skills in CSS"
           listItems={itWebDesignTech}
         />
