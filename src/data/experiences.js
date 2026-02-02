@@ -96,7 +96,7 @@ export const experiences = [
       },
       {
         content:
-          "The start-up where I created the WordPress theme for VolKoren.tv",
+          "The start-up where I created my first WordPress theme",
       },
       {
         content: "Introduced a different workflow within the team",

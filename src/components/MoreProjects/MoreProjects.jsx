@@ -82,7 +82,7 @@ function MoreProjects (){
       <h2>Other projects I made</h2>
       <ul className="more-projects-grid">
         <MoreProjectsItem
-          title="Handstand, one of my most recent work with SimplyEdit"
+          title="Handstand, my first time working with SimplyEdit"
           githubUrl=""
           url="https://www.vanuithandstand.nl/"
           description="My first time being a professional developer and I get to work with an in-house built CMS(SimplyEdit) at Muze. This is the first project I worked on and it turned out pretty cool."

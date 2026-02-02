@@ -1,14 +1,7 @@
 import "./Projects.css";
-import volkorenTv from "../../..//img/projects/volkorentv.png";
 import fuchsiaGradient from "../../..//img/projects/fuschia-gradient.png";
 import reactMeals from "../../..//img/projects/reactmeals.png";
 import Project from "./Project/Project";
-
-const volkorenTvTech = [
-  { id: 1, content: "JavaScript (ES6+)" },
-  { id: 2, content: "WordPress" },
-  { id: 3, content: "PHP" },
-];
 
 const fuchsiaGradientTech = [
   { id: 1, content: "JavaScript (ES6+)" },
@@ -26,19 +19,6 @@ function Projects() {
     <section className="projects" id="projects">
       <h2 className="heading">Some stuff I've built</h2>
       <ul>
-        <Project
-          url="https://volkoren.tv/"
-          title="VolKoren.tv"
-          tech={volkorenTvTech}
-          githubUrl=""
-          imgSrc={volkorenTv}
-        >
-          <p>
-            A platform where you can check out videos from the Dutch and Flemish
-            choral world. From classical chorus to modern acapella groups, you
-            can find it all on <a href="https://volkoren.tv/">VolKoren.tv</a>.
-          </p>
-        </Project>
         <Project
           url="https://fuchsia-gradient.akdev.nl/"
           title="Fuchsia Gradient"
