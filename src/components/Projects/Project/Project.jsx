@@ -46,7 +46,7 @@ function Project(props) {
         </div>
       </div>
       <div className="project-img">
-        <a href={props.url}>
+        <a href={props.url} target="_blank" rel="noopener noreferrer">
           <div className="img img-wrapper img-wrapper-constrained">
             <div>
               <img src={props.imgSrc} />

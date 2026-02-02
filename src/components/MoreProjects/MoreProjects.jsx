@@ -1,25 +1,6 @@
 import './MoreProjects.css'
 import MoreProjectsItem from './MoreProjectsItem/MoreProjectsItem'
 
-const vistaGalleryTech = [
-  {
-    id: 1,
-    content: "React",
-  },
-  {
-    id: 2,
-    content: "JavaScript (ES6+)",
-  },
-  {
-    id: 3,
-    content: "Firebase",
-  },
-  {
-    id: 4,
-    content: "Sass",
-  },
-];
-
 const superRpgTech = [
   {
     id: 1,
@@ -87,13 +68,6 @@ function MoreProjects (){
           url="https://www.vanuithandstand.nl/"
           description="My first time being a professional developer and I get to work with an in-house built CMS(SimplyEdit) at Muze. This is the first project I worked on and it turned out pretty cool."
           listItems={handstandTech}
-        />
-        <MoreProjectsItem
-          title="An attempt to a gallery app"
-          url="https://vista-gallery.akdev.nl/"
-          githubUrl="https://github.com/aKacharava/vista-gallery"
-          description="This is one of those projects that I wanted to try out with a framework I was learning(React) and a database(Firebase). This was a fun project to start of with in React, because it taught me to use a familiar concept in a somewhat unfamiliar method for me."
-          listItems={vistaGalleryTech}
         />
         <MoreProjectsItem
           title="A Super Awesome RPG"

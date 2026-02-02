@@ -20,7 +20,7 @@ function Projects() {
       <h2 className="heading">Some stuff I've built</h2>
       <ul>
         <Project
-          url="https://fuchsia-gradient.akdev.nl/"
+          url="https://fuchsia-gradient.akforge.dev/"
           title="Fuchsia Gradient"
           tech={fuchsiaGradientTech}
           githubUrl="https://github.com/aKacharava/fuchsia-gradient"
@@ -33,7 +33,7 @@ function Projects() {
           </p>
         </Project>
         <Project
-          url="https://reactmeals.akdev.nl/"
+          url="https://reactmeals.akforge.dev/"
           title="ReactMeals"
           tech={reactMealsTech}
           githubUrl="https://github.com/aKacharava/react-foodapp"
