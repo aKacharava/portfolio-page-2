@@ -1,6 +1,6 @@
 import "./Projects.css";
-import fuchsiaGradient from "../../..//img/projects/fuschia-gradient.png";
-import reactMeals from "../../..//img/projects/reactmeals.png";
+import fuchsiaGradient from "../../../img/projects/fuschia-gradient.png";
+import reactMeals from "../../../img/projects/reactmeals.png";
 import Project from "./Project/Project";
 
 const fuchsiaGradientTech = [
